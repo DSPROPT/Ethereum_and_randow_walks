@@ -2,7 +2,7 @@
 
 ## Desenvolvimento de um Rastreador de Preços de Ethereum em Tempo Real com Python e Dash
 
-
+![image](Screencast_from_2023-07-17_14-11-42_AdobeExpress.gif)
 
 
 Bem-vindos ao tutorial sobre como desenvolver um rastreador de preços de Ethereum em tempo real usando Python e Dash.
