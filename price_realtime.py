@@ -125,8 +125,8 @@ def update_graph_scatter(n, existing_figure):
             }
         ],
         'layout': {
+            'yaxis': {'range': [min(df[['price', 'random_walk']].min()), max(df[['price', 'random_walk']].max())]},
             'xaxis': {'range': [min(df['datetime']), max(df['datetime'])]},
-            'yaxis': {'range': [min(df['price']), max(df['price'])]},
             'title': 'ETH-EUR',
             'uirevision': pd.Timestamp.now(),
         }
@@ -143,4 +143,4 @@ def update_metrics(n):
     ]
 
 if __name__ == '__main__':
-    server.run(port=5004, debug=True)  # Changed port to 5001
+    server.run(port=5004, debug=True)  # Changed port to 5004
