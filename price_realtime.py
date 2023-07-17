@@ -57,7 +57,7 @@ app = dash.Dash(__name__, server=server, url_base_pathname='/')
 
 app.layout = html.Div(children=[
     html.H1(children='Desenvolvimento de um Rastreador de Preços de Ethereum com Python e Dash'),
-    html.Img(src='/assets/my_logo.png', style={'height':'10%', 'width':'10%'}),
+    html.Img(src='/my_logo.png', style={'height':'10%', 'width':'10%'}),
     html.Div(id='live-update-text'),
     dcc.Graph(
         id='live-graph', 
