@@ -2,7 +2,7 @@
 
 ## Desenvolvimento de um Rastreador de Preços de Ethereum em Tempo Real com Python e Dash
 
-![image](https://github.com/Geek4ManiacsPT/Ethereum_and_randow_walks/assets/123905090/07ae6e8c-28ea-457e-b9e3-b109644f301a)
+
 
 
 Bem-vindos ao tutorial sobre como desenvolver um rastreador de preços de Ethereum em tempo real usando Python e Dash.
